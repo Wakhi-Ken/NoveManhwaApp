@@ -1,4 +1,4 @@
-Ken's Book Finder
+Ken's Book Finder { wakhi-ken.tech }
 Description
 Ken's Book Finder is a simple web app to help you search for books by title or author. It fetches book information from the Open Library and shows details like the title, author, publication year, cover image, and more.
 
