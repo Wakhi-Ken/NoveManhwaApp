@@ -100,6 +100,35 @@ button:hover {
     font-size: 16px; /* Set the font size for the paragraph text */
 }
 
+/* Footer Styles */
+footer {
+    background-color: #4f46d4; /* Light gray background */
+    color: #ffffff; /* Dark gray text color */
+    text-align: center; /* Centered text */
+    padding: 20px 10px; /* Padding for top and bottom, reduced horizontal padding */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    font-size: 1.1em; /* Slightly larger font size */
+    border-top: 1px solid #ffffff; /* Top border for separation */
+}
+
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+    footer {
+        font-size: 1em; /* Slightly smaller font size on small screens */
+        padding: 15px 5px; /* Reduced padding for smaller screens */
+    }
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Optional: Responsive text adjustment */
+@media (max-width: 400px) {
+
 /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
     /* Hide the cover image on smaller screens */
